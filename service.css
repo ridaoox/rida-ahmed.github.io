@@ -1,0 +1,128 @@
+/* Corps global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Conteneur principal */
+.service {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Titre */
+.service h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Texte descriptif */
+.service p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.service b{
+	float:right;
+	
+}
+
+
+/* Conteneur du formulaire */
+.form-container {
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* Champs du formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Étiquettes */
+.label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Champs d'entrée */
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+   border: 3px solid #007bff;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+	
+}
+textarea:hover{
+	 border-color: #28a745; 
+}
+
+
+/* Style pour les champs de texte */
+input[type="text"],
+input[type="email"] {
+    border: 3px solid #007bff; /* Augmente l'épaisseur et applique une couleur */
+    padding: 10px;            /* Ajoute de l'espace intérieur pour un meilleur rendu */
+    border-radius: 5px;       /* Coins légèrement arrondis */
+    width: 100%;              /* Prend toute la largeur disponible */
+    box-sizing: border-box;   /* Inclut les bordures et le padding dans la largeur totale */
+    font-size: 16px;          /* Taille de texte confortable */
+}
+
+/* Effet au survol */
+input[type="text"]:hover,
+input[type="email"]:hover {
+    border-color: #28a745;    /* Change la couleur au survol */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ajoute un léger halo */
+}
+
+
+textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Bouton d'envoi */
+#b {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#b:hover {
+    background-color: #0056b3;
+}
+
+/* Carte Google Maps */
+iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 200px;
+	margin-bottom:300px;
+}

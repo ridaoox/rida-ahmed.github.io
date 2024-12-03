@@ -1,0 +1,100 @@
+/* Couleurs principales */
+:root {
+    --primary-color: #003366; /* Bleu foncé */
+    --secondary-color: #1e90ff; /* Bleu clair */
+    --background-color: #f4f4f9; /* Gris clair */
+    --text-color: #333; /* Noir doux */
+    --button-color: #1e90ff; /* Couleur des boutons */
+    --button-hover-color: #003366; /* Couleur des boutons au survol */
+    --button-text-color: #fff; /* Texte blanc pour les boutons */
+}
+
+/* Style général */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Titres principaux */
+.container h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Sections des filières */
+.program {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    flex-wrap: wrap; /* Pour les écrans plus petits */
+}
+
+/* Images */
+.program img {
+    max-width: 45%; /* Taille adaptable */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenu textuel */
+.program h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    border-left: 5px solid var(--secondary-color);
+    padding-left: 10px;
+}
+
+.program p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+/* Liens */
+.program a {
+    display: inline-block;
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+ a:hover {
+    background-color: var(--button-hover-color);
+    color: var(--button-text-color);
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .program {
+        flex-direction: column; /* Alignement vertical pour petits écrans */
+        text-align: center;
+    }
+
+    .program img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}

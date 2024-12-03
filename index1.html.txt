@@ -1,0 +1,44 @@
+<!DOC*TYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Accueil - ENSA Agadir</title>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="css1pprojet.css">
+	
+</head>
+<body>
+    <header>
+	
+		
+		<div class="t2">
+		<h1 id="t1"> ENSA Agadir</h1>
+		<img src="ensalogo.png" width="70" height="70" class="imag1">
+		
+		<div class="nav">
+        <nav>
+            <a href="acueil.html">Accueil</a>
+            <a href="dvfiliere.html">Filières</a>
+            <a href="dvclub.html">Clubs</a>
+            <a href="dvsys.html">Système</a>
+			<a href="service.html">service</a>
+        </nav>
+		</div>
+		</div>
+		
+		<div class="contiue">
+		<div class="c1">
+		<p><strong>L'École Nationale des Sciences Appliquées d'Agadir (ENSA Agadir) est un établissement public d'enseignement supérieur marocain,
+		faisant partie du réseau des ENSA réparties dans plusieurs villes du pays. 
+		Créée dans le but de former des ingénieurs polyvalents et hautement qualifiés, 
+		elle propose des formations pointues dans divers domaines technologiques et scientifiques.</strong></p>
+		</div>
+		</div>
+		
+		
+		
+    </header>
+</body>
+</html>

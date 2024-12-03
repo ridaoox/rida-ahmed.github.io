@@ -1,0 +1,74 @@
+/* Conteneur principal */
+.t2 {
+    background-color:#1b2a41;
+    height: 120px;
+    position: relative; /* Permet un positionnement précis des éléments */
+}
+.t2 imag1{
+	float:left;
+	display: flex;
+    align-items: center;
+}
+
+/* Logo et titre ENSA Agadir */
+#t1 {
+    color: white;
+    /* Aligne le titre à gauche */
+    margin: 0;
+    display: flex; /* Permet d'ajouter un logo facilement */
+    
+}
+
+/* Menu de navigation */
+.nav {
+    text-align: center; /* Centre les éléments du menu horizontalement */
+    position: absolute;
+    width: 100%; /* Assure que le menu reste centré */
+    top: 50%; /* Place le menu verticalement au centre du conteneur */
+    transform: translateY(-50%); /* Ajuste le positionnement verticalement */
+}
+
+.nav a {
+    color: white;
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-size: 18px;
+    margin: 0 15px; /* Ajoute de l'espace entre les liens */
+    transition: color 0.3s ease; /* Effet de changement de couleur au survol */
+}
+
+.nav a:hover {
+    color: yellow;
+}
+
+.contiue {
+    background-image: url("aensaaa.png");
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-size: cover; /* L'image couvre tout le conteneur */
+    background-position: center; /* Centre l'image dans le conteneur */
+    height: 618px; /* Assurez-vous que la hauteur est définie correctement */
+	background-attachment:fixed;
+	
+}
+*{
+	margin:0%;
+	padding:0%;
+}
+.c1{
+	padding:200px;
+	color:white;
+	text-align:center;
+	
+	
+}
+.c1 p{
+	
+
+text-align:center;
+ width:300px;
+color: #1b2a41;
+margin-left:350px;
+margin-top:0;
+}
+.c1 p:hover{
+	background-color:white;
+}
